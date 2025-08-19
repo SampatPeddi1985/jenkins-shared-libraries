@@ -1,3 +1,3 @@
-def class(string ProjectName, string ImageTag, string DockerHubUser{
+def class(String ProjectName, String ImageTag, String DockerHubUser{
  sh "docker build -t ${DockerHubUser}/${ProjectNmae}:${ImageTag}
 }
